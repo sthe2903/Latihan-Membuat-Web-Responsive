@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="./assets/styles/style.css">
+   <link rel="stylesheet" href="./assets/styles/font.css">
+   <link rel="stylesheet" href="./assets/styles/footer.css">
+   <link rel="stylesheet" href="./assets/styles/template.css">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+   <title>Frontend Developer CTARSA Foundation - Template</title>
+</head>
+
+<body style="background-color: #f5f5f5; font-family: Lexend Deca;">
+   <header class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light mb-5 ">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+               <h1 class="logo-menu" style="color: black;">
+                  team<span>.</span>
+               </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+               aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link font-link" style="color: black;" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link font-link" style="color: black;" href="./blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link font-link" style="color: black;" href="#">Support</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link font-link" style="color: black;" href="#">Login</a>
+                  </li>
+                  <button class="font-para d-flex justify-content-center align-items-center" style="color: white;">
+                     Get Access
+                  </button>
+               </ul>
+            </div>
+         </div>
+
+      </nav>
+   </header>
+   <main class="container-fluid">
+      <section class="section-top container d-flex flex-column justify-content-center align-items-center">
+         
+         <h1 class="font-h1">Data exported by Team Cloud organization administrators contained private files</h1>
+        
+         <section class="author-layout">
+            <div class="author-template d-flex justify-content-between align-items-center align-self-start">
+             
+               <img src="./assets/images/Avatar-blog-1.png" alt="">
+               <caption>Cameron Williamson</caption>
+               <caption>|</caption>
+               <caption>July 1, 2023</caption>
+            </div>
+         </section>
+      </section>
+
+      <section class="section-mid container d-flex flex-column justify-content-center align-items-center">
+         <img class="image-template" src="./assets/images/banner.png" alt="">
+         <div class="conntent-template fw-normal font-para">
+            <p>Administrators of Team Cloud organizations can export public data from their organization via the
+               organization settings menu. The exports include all the data that appears public streams, and can be used
+               to migrate from Team Cloud to self-hosting Team. Note that exporting private data is a separate process
+               that requires contacting Team Support.</p>
+            <p>
+               Due to a bug in the public export code, exports of public data contained all uploaded files, even those
+               from private messages and private streams. This may have allowed organization owners or administrators to
+               extract uploaded files that they were not otherwise allowed to access. The content of non-public messages
+               was never included in public exports.
+            </p>
+            <p>
+               This bug has existed since the public export feature was implemented in August 2019. We have deleted all
+               existing Team Cloud exports from our servers, and will be making changes to auto-expire all exports after
+               7 days in the future. This bug was fixed for self-hosted users in the Team Server 5.4 release.
+            </p>
+            <p>
+               We have notified by email all administrators and users in non-deactivated Team Cloud organizations who
+               may have been impacted by this bug. As many organizations have never exported their data, most Team Cloud
+               users were not affected.
+            </p>
+            <p>
+               We would like to thank Antoine Benoist for bringing this issue to our attention.
+            </p>
+         </div>
+ 
+         <section class="author-layout">
+
+            <div class="author-template-mid d-flex align-items-center">
+               <img src="./assets/images/Avatar-blog-10.png" alt="">
+               <div class="data-author">
+                  <h4 class="font-h4">Written by</h4>
+                  <h3 class="font-h3">Mark Brooklyn</h3>
+                  <caption class="font-caption">COO at Team. Author of the upcoming book on Team Management and
+                     Leadership.
+                  </caption>
+               </div>
+            </div>
+         </section>
+      </section>
+     
+      <hr class="pembatas text-center mx-auto">
+
+      <section class="section-button d-flex flex-column justify-content-center align-items-center">
+         <section class="author-layout d-flex flex-column">
+        
+            <p class="font-para">Join the conversation</p>
+            <div class="d-flex gap-4">
+         
+               <img src="./assets/images/Avatar-blog-1.png" alt="">
+               <textarea placeholder="Comments">
+
+               </textarea>
+            </div>
+         </section>
+      </section>
+   </main>
+   <footer id="footer" class="container-fluid">
+      <section class="container container-footer d-flex">
+         <div class="content-footer d-flex container">
+        
+            <div class="logo d-inline-flex">
+               <h1 class="logo-name">team<span>.</span></h1>
+               <caption class="font-caption">Collaboration platform for mordern team </caption>
+            </div>
+            <div class="menu-footer d-flex container">
+       
+               <div class="footer-nav company">
+                  <h3 class="font-h3">Company</h3>
+                  <div class="sub-menu-footer d-flex">
+                     <div class="font-caption"><a href="#"> Product</a></div>
+                     <div class="font-caption"><a href="#"> Blog</a></div>
+                     <div class="font-caption"><a href="#"> Support</a></div>
+                  </div>
+               </div>
+      
+               <div class="footer-nav fetatures">
+                  <h3 class="font-h3">Features</h3>
+                  <div class="sub-menu-footer d-flex">
+                     <div class="font-caption"><a href="#"> Screen Sharing</a></div>
+                     <div class="font-caption"><a href="#">iOS & Android Apps</a></div>
+                     <div class="font-caption"><a href="#"> File Sharing</a></div>
+                     <div class="font-caption"><a href="#"> User Managment</a></div>
+                  </div>
+               </div>
+       
+               <div class="footer-nav contact">
+                  <h3 class="font-h3">Features</h3>
+                  <div class="sub-menu-footer d-flex">
+                     <div class="font-caption"><a href="#"> info@teamapp.com</a></div>
+                     <div class="font-caption"><a href="#">1-800-200-300</a></div>
+                     <div class="font-caption"><a href="#"> 1010 Sunset Blv. <br>
+                           Palo Alto, California</a></div>
+                  </div>
+               </div>
+           
+               <div class="footer-nav email">
+                  <h3 class="font-h3">Stay up to date </h3>
+                  <caption class="font-caption">Subscribe to our newseller</caption>
+                  <div class="input-footer d-flex">
+                     <input class="d-flex" type="text" placeholder="Email">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                        <path
+                           d="M5.20874 13.5H16.3787L11.4987 18.38C11.1087 18.77 11.1087 19.41 11.4987 19.8C11.8887 20.19 12.5187 20.19 12.9087 19.8L19.4987 13.21C19.8887 12.82 19.8887 12.19 19.4987 11.8L12.9187 5.19996C12.7319 5.0127 12.4783 4.90747 12.2137 4.90747C11.9492 4.90747 11.6956 5.0127 11.5087 5.19996C11.1187 5.58996 11.1187 6.21996 11.5087 6.60996L16.3787 11.5H5.20874C4.65874 11.5 4.20874 11.95 4.20874 12.5C4.20874 13.05 4.65874 13.5 5.20874 13.5Z"
+                           fill="#7676B2" />
+                     </svg>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div>
+            <caption class="font-caption">© Copyright Team Inc.</caption>
+         </div>
+      </section>
+   </footer>
+</body>
+
+</html>

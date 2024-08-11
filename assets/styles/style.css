@@ -1,0 +1,600 @@
+/* Set up */
+:root {
+  --off-white: #f5f5f5;
+  --dark-blue: #232340;
+  --soft-blue: #5468e7;
+  --soft-violet: #c897e4;
+  --desaturated-blue: #7676b2;
+  --light-orangge: #ffba79;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  list-style: none;
+}
+
+/* Card Information */
+.card-information {
+  width: 460px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.card-information .card-top {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.card-information .card-bottom {
+  gap: 8px;
+}
+
+.card-information .card-bottom a {
+  color: var(--soft-blue);
+}
+.card-information .card-bottom svg {
+  width: 30px;
+  height: 30px;
+  color: var(--soft-blue);
+}
+
+/* End Card Information */
+
+#banner-layout {
+  background-image: url(../images/banner.png);
+  background-image: cover;
+  background-position: 80%;
+  height: 800px;
+}
+
+/* Navbar section */
+
+.logo-menu {
+  color: var(--off-white);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 50px */
+  letter-spacing: -1px;
+}
+
+.logo-menu span {
+  color: var(--soft-blue);
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -1.04px;
+}
+
+.navbar-collapse .navbar-nav {
+  display: flex;
+  gap: 52px !important;
+}
+
+.navbar-collapse button {
+  color: white;
+  padding: 10px 44px;
+  gap: 8px;
+  border-radius: 4px;
+  background: rgba(84, 104, 231, 0.5);
+}
+
+.navbar-toggler {
+  color: white !important;
+  border: none !important;
+}
+
+.navbar-toggler > .navbar-toggler-icon {
+  color: white !important;
+  border: none !important;
+}
+
+.navbar-collapse .navbar-nav .nav-item a {
+  color: var(--off-white);
+  text-decoration: underline;
+}
+
+.navbar-section {
+  height: 20%;
+}
+/* End navbar section */
+
+/* Banner Section */
+
+.banner-section {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+  height: 800px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.banner-content h1 {
+  color: var(--off-white);
+  width: 563px;
+}
+
+.banner-content span {
+  color: var(--off-white);
+  width: 397px;
+}
+
+.banner-grup {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.banner-grup input {
+  display: flex;
+  width: 298px;
+  padding: 11px 16px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 2px solid var(--grayish-blue);
+  background: var(--off-white);
+}
+
+.banner-grup .input-banner {
+  position: relative;
+}
+
+.banner-grup .input-banner svg {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.banner-grup button {
+  display: flex;
+  padding: 10px 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: var(--soft-blue);
+  color: var(--off-white);
+  text-align: center;
+}
+/* End Banner Section*/
+
+/* Mockup Section*/
+#mockup {
+  height: 656px;
+  padding: 2px 0px 0px 140px;
+  justify-content: flex-end;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.mockup-section {
+  align-items: center;
+  gap: 56px;
+}
+
+#mockup .mockup .img-1 {
+  width: 720px;
+  height: 654px;
+}
+
+#mockup .mockup .img-2,
+#mockup .mockup .img-3 {
+  display: none;
+}
+
+/* End Mockup Section */
+
+/* Info Cection */
+#info {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.info-card {
+  padding-left: 100px;
+  width: 100%;
+  padding-right: 100px;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.info-card .card-image .a {
+  width: 100%;
+  height: 565px;
+  flex-shrink: 0;
+}
+
+.card-image-2 {
+  order: 2;
+}
+
+.offer-info-2 {
+  order: 1;
+}
+
+/* Icons Absolute  */
+
+.info-card .card-image .calender-layout {
+  top: 10px;
+  right: 10px;
+  transform: translate(0%, 0%);
+}
+
+.info-card .card-image .account-1 {
+  right: 12px;
+  bottom: 200px;
+  transform: translate(0%, -10%);
+}
+
+.info-card .card-image .card-info-1 {
+  right: 12px;
+  bottom: 12px;
+  transform: translate(0%, 0%);
+}
+
+.info-card .card-image .account-2 {
+  left: 12px;
+  bottom: 12px;
+  transform: translate(0%, 0%);
+}
+
+.info-card .card-image .card-info-2 {
+  left: 12px;
+  bottom: 100px;
+  transform: translate(0%, 0%);
+}
+
+/* End Info Section */
+
+/* Reviews Section*/
+#reviews {
+  margin-top: 200px;
+}
+.slider-content {
+  width: 100%;
+  margin: 100px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-layout {
+  width: 98%;
+  margin-left: 45px;
+  justify-content: left;
+  overflow-x: auto;
+}
+
+.slider-layout::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+.slider {
+  margin: 10px 20px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.slider .slider-2 {
+  display: flex;
+  width: 367px;
+  min-width: 260px;
+  max-width: 367px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 44px 33px;
+  box-shadow: 0px 16px 24px 0px rgba(118, 118, 178, 0.24);
+}
+
+.slider .slider-2 .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.slider .slider-2 .profile-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  align-self: stretch;
+}
+
+.button-arrow {
+  justify-content: flex-end;
+  margin-right: 40px;
+  gap: 24px;
+}
+
+.button-arrow span {
+  cursor: pointer;
+}
+
+/* End Reviws Section*/
+
+@media screen and (max-width: 768px) {
+  /* Banner Section */
+  #banner-layout {
+    height: 720px;
+  }
+  .banner-grup {
+    width: 100%;
+    gap: 12px;
+  }
+  .banner-section {
+    height: 720px;
+  }
+  .banner-content h1,
+  .banner-content span {
+    width: 100%;
+  }
+  /*End Banner Section */
+  /* Mockup Section */
+  #mockup {
+    width: 100%;
+    height: 1140px;
+    padding: 60px 0px 76px 30px;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 120px;
+  }
+  .mockup-section {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+  }
+  #mockup .card-information {
+    order: 2;
+  }
+  #mockup .mockup {
+    order: 1;
+    width: 100%;
+  }
+  #mockup .mockup .img-1,
+  #mockup .mockup .img-3 {
+    display: none;
+  }
+  #mockup .mockup .img-2 {
+    display: block;
+    width: 700px;
+    height: 654px;
+  }
+  /* End Mockup Section */
+  /* Information Section */
+  #info {
+    gap: 72px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .info-card {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .info-card .card-image .a {
+    width: 280px;
+    height: 360px;
+  }
+  .info-card .offer-info {
+    width: 50%;
+    padding-right: 0px;
+  }
+
+  .info-card .card-image .calender-layout {
+    width: 160px;
+    height: 68.421px;
+  }
+
+  .info-card .card-image .account-1 {
+    right: 12px;
+    bottom: 0px;
+    top: 10px;
+    transform: translate(0%, -10%);
+    width: 120px;
+    height: 51.474px;
+  }
+
+  .info-card .card-image .card-info-1 {
+    right: 12px;
+    bottom: 0px;
+    top: 60px;
+    transform: translate(0%, 0%);
+    width: 120px;
+    height: 114.646px;
+  }
+
+  .info-card .card-image .account-2 {
+    width: 128px;
+    height: 54.905px;
+    flex-shrink: 0;
+  }
+
+  .info-card .card-image .card-info-2 {
+    width: 128px;
+    height: 122.259px;
+    bottom: 75px;
+  }
+  /* End Information Section */
+
+  /* Reviews Section */
+  #reviews {
+    margin-top: 100px;
+  }
+  .slider-layout {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .slider-content {
+    margin: 80px auto;
+  }
+  .button-arrow {
+    justify-content: center;
+    margin-right: 40px;
+  }
+  /* End Reviews Section */
+}
+
+@media screen and (max-width: 468px) {
+  .card-information {
+    width: 98%;
+    padding-left: 20px;
+  }
+  /* Banner Section */
+  #banner-layout {
+    height: 780px;
+  }
+  .banner-section {
+    height: 780px;
+  }
+  .banner-grup {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .banner-grup input,
+  .banner-grup button,
+  .banner-grup .input-banner {
+    width: 100%;
+  }
+  /* End Banner Section */
+
+  /* Mockup Section */
+  #mockup {
+    height: 1200px;
+    padding: 60px 0px 66px 30px;
+  }
+
+  #mockup .mockup .img-1,
+  #mockup .mockup .img-2 {
+    display: none;
+  }
+  #mockup .mockup .img-3 {
+    display: block;
+    width: 100%;
+    height: 654px;
+  }
+  /* End Mockup Section */
+
+  /* Information Section */
+  #info {
+    gap: 72px;
+    margin-top: 0px;
+    margin-bottom: 120px;
+    width: 100%;
+  }
+
+  .info-card {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+  }
+
+  .info-card .card-image {
+    width: 95%;
+    margin-right: 20px;
+  }
+  .info-card .card-image .a {
+    width: 100%;
+    height: 288px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  .info-card .offer-info {
+    width: 100%;
+    display: flex;
+    padding-left: 24px;
+    justify-self: end;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+  }
+
+  .info-card .card-image .account-1 {
+    right: 10px;
+    bottom: 0px;
+    top: 10px;
+    width: 104px;
+    height: 44.611px;
+  }
+
+  .info-card .card-image .card-info-1 {
+    right: 10px;
+    top: 60px;
+    bottom: 0px;
+    width: 104px;
+    height: 99.36px;
+    flex-shrink: 0;
+  }
+
+  .info-card .card-image .account-2 {
+    left: 10px;
+    bottom: 12px;
+    width: 104px;
+    height: 44.611px;
+  }
+
+  .info-card .card-image .card-info-2 {
+    left: 10px;
+    bottom: 65px;
+    width: 104px;
+    height: 99.36px;
+  }
+  .card-image-2 {
+    order: 1;
+  }
+
+  .offer-info-2 {
+    order: 2;
+  }
+  /*End Information Section */
+
+  /* Reviews Section */
+  #reviews {
+    margin-top: 120px;
+  }
+  .slider-layout {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .button-arrow {
+    justify-content: end;
+  }
+  /* End Reviews Section */
+}

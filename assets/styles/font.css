@@ -1,0 +1,83 @@
+.font-h1 {
+  color: var(--dark-blue, #232340);
+
+  /* H1/Desktop */
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 128% */
+}
+.font-h2 {
+  color: var(--dark-blue, #232340);
+
+  /* H2 */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+}
+.font-h3 {
+  color: var(--dark-blue, #232340);
+
+  /* H3 */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+}
+.font-h4 {
+  color: var(--dark-blue, #232340);
+
+  /* H4 */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.16px;
+  text-transform: uppercase;
+}
+
+.font-para {
+  color: var(--dark-blue, #232340);
+
+  /* Paragraph/Desktop */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+}
+
+.font-caption {
+  color: var(--dark-blue, #232340);
+
+  /* Caption/Desktop */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 164.286% */
+  letter-spacing: 0.14px;
+}
+
+.font-link {
+  color: var(--dark-blue, #232340);
+
+  /* Link */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width: 468px) {
+  .font-h1 {
+    color: var(--dark-blue, #232340);
+
+    /* H1/Mobile */
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; /* 123.529% */
+    width: 100%;
+  }
+}
